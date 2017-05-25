@@ -1,0 +1,14 @@
+/Library/Python/2.7/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+/Library/Python/2.7/site-packages/numpy/core/fromnumeric.py:2699: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  VisibleDeprecationWarning)
+[16:23:48] src/c_api/c_api.cc:264: num_row=39481
+[16:23:51] src/c_api/c_api.cc:264: num_row=9871
+[17:40:41] src/c_api/c_api.cc:264: num_row=39481
+[17:40:43] src/c_api/c_api.cc:264: num_row=9871
+[19:24:11] src/c_api/c_api.cc:264: num_row=39481
+[19:24:14] src/c_api/c_api.cc:264: num_row=9871
+[20:33:41] src/c_api/c_api.cc:264: num_row=39481
+[20:33:43] src/c_api/c_api.cc:264: num_row=9871
+[21:48:51] src/c_api/c_api.cc:264: num_row=39484
+[21:48:53] src/c_api/c_api.cc:264: num_row=9868

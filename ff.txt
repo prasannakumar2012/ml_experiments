@@ -1,0 +1,38 @@
+(49352, 15)
+(74659, 14)
+('display_address', 16068)
+('manager_id', 4399)
+('building_id', 11635)
+('street_address', 25766)
+('num_furniture', 19)
+('display_address_manager_id', 62997)
+('display_address_building_id', 28492)
+('display_address_street_address', 29336)
+('display_address_num_furniture', 25625)
+('manager_id_building_id', 58550)
+('manager_id_street_address', 73650)
+('manager_id_num_furniture', 15233)
+('building_id_street_address', 29348)
+('building_id_num_furniture', 19148)
+('street_address_num_furniture', 37085)
+10                                                         
+10000     Doorman Elevator Fitness_Center Cats_Allowed D...
+100004    Laundry_In_Building Dishwasher Hardwood_Floors...
+100007                               Hardwood_Floors No_Fee
+100013                                              Pre-War
+Name: features, dtype: object
+['bathrooms', 'bedrooms', 'latitude', 'longitude', 'price', 'num_photos', 'num_features', 'num_description_words', 'created_month', 'created_day', 'listing_id', 'created_hour', 'total_days', 'diff_rank', 'num_price_by_furniture', 'price_latitue', 'price_longtitude', 'display_address', 'manager_id', 'building_id', 'street_address', 'num_furniture', 'display_address_manager_id', 'display_address_building_id', 'display_address_street_address', 'display_address_num_furniture', 'manager_id_building_id', 'manager_id_street_address', 'manager_id_num_furniture', 'building_id_street_address', 'building_id_num_furniture', 'street_address_num_furniture']
+((49352, 282), (74659, 282))
+((49352, 282), (74659, 282))
+scalling
+kfolder
+starting cross validation with 5 kfolds 
+ train size: 39481. test size: 9871, cols: 285 
+size train: 39481 size cv: 9871 loglikelihood (fold 1/5): 0.551894
+ train size: 39481. test size: 9871, cols: 285 
+size train: 39481 size cv: 9871 loglikelihood (fold 2/5): 0.546868
+ train size: 39481. test size: 9871, cols: 285 
+size train: 39481 size cv: 9871 loglikelihood (fold 3/5): 0.551928
+ train size: 39481. test size: 9871, cols: 285 
+size train: 39481 size cv: 9871 loglikelihood (fold 4/5): 0.552012
+ train size: 39484. test size: 9868, cols: 285 

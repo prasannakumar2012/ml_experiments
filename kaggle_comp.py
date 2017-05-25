@@ -124,10 +124,21 @@ def load_data_sparse(data_path=""):
     train_df['features'] = train_df['features'].apply(lambda x: " ".join(["_".join(i.split(" ")) for i in x]))
     test_df['features'] = test_df['features'].apply(lambda x: " ".join(["_".join(i.split(" ")) for i in x]))
 
-    train_df['description'] = train_df['description'].apply(
-        lambda x: str(x).encode('utf-8') if len(x) > 2 else "nulldesc")
-    test_df['description'] = test_df['description'].apply(
-        lambda x: str(x).encode('utf-8') if len(x) > 2 else "nulldesc")
+    def check_exc(x):
+        if len(x)>2:
+            try:
+                return str(x).encode('utf-8')
+            except:
+                return "nulldesc"
+        else:
+            return "nulldesc"
+
+    train_df['description'] = train_df['description'].apply(check_exc)
+    test_df['description'] = test_df['description'].apply(check_exc)
+    # train_df['description'] = train_df['description'].apply(
+    #     lambda x: str(x).encode('utf-8') if len(x) > 2 else "nulldesc")
+    # test_df['description'] = test_df['description'].apply(
+    #     lambda x: str(x).encode('utf-8') if len(x) > 2 else "nulldesc")
 
     tfidfdesc = TfidfVectorizer(min_df=20, max_features=50, strip_accents='unicode', lowercase=True,
                                 analyzer='word', token_pattern=r'\w{16,}', ngram_range=(1, 2), use_idf=False,
@@ -245,7 +256,7 @@ def main():
     ######### Load files ############
 
     X, X_test, y, ids = load_data_sparse(
-        data_path="../input/")  # you might need to change that to whatever folder the json files are in
+        data_path="/Users/prasanna/Downloads/")  # you might need to change that to whatever folder the json files are in
     ids = np.array([int(k) + 68119576 for k in ids])  # we add the id value we removed before for scaling reasons.
     print(X.shape, X_test.shape)
 
@@ -358,7 +369,8 @@ def main():
     np.savetxt(test_file, X_test, delimiter=",", fmt='%.5f')
 
     print("Write results...")
-    output_file = "submission_" + str((mean_logloss)) + ".csv"
+    import uuid
+    output_file = "submission_"+str(uuid.uuid4())+"_" + str((mean_logloss)) + ".csv"
     print("Writing submission to %s" % output_file)
     f = open(output_file, "w")
     f.write("listing_id,high,medium,low\n")  # the header
