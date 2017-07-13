@@ -1,0 +1,2 @@
+https://github.com/aqibsaeed/Anomaly-Detection/blob/master/Anomaly%20Detection.ipynb
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
