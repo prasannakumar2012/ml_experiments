@@ -39,3 +39,13 @@ https://arxiv.org/pdf/1707.00948.pdf
 
 GMM
 https://codefying.com/2016/09/03/gaussian-mixture-model-with-application-to-anomaly-detection/
+
+
+https://github.com/curiousily/Credit-Card-Fraud-Detection-using-Autoencoders-in-Keras
+https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd
+
+https://github.com/H21lab/Anomaly-Detection
+
+https://github.com/owoshch/time_series
+
+h2O autoencoder - train on normal data to get the minimum recontruction error. Test for new samples and see if the recontruction error is above some threshold
