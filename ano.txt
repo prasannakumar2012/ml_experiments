@@ -33,3 +33,9 @@ https://arxiv.org/pdf/1512.05463.pdf
 Grand Challenge: StreamLearner – Distributed Incremental Machine Learning on Event Streams
 https://arxiv.org/pdf/1706.08420.pdf
 
+Anomaly Detection and Modeling in 802.11 Wireless Networks
+time-invariant (Gaus- sian Mixture Models) and time-variant (Hidden Markov Models)
+https://arxiv.org/pdf/1707.00948.pdf
+
+GMM
+https://codefying.com/2016/09/03/gaussian-mixture-model-with-application-to-anomaly-detection/
