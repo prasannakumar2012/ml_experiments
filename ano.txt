@@ -11,3 +11,25 @@ distance based
 
 
 density based  - DBscan neighbour density
+
+EXPECTED SIMILARITY ESTIMATION FOR LARGE-SCALE BATCH AND STREAMING ANOMALY DETECTION
+https://arxiv.org/pdf/1601.06602.pdf
+
+Learning Minimum Volume Sets and Anomaly Detectors from KNN Graphs
+https://arxiv.org/pdf/1601.06105.pdf
+
+An unsupervised spatiotemporal graphical modeling approach to anomaly detection in distributed CPS∗
+RBM
+https://arxiv.org/pdf/1512.07876.pdf
+
+ATD: Anomalous Topic Discovery in High Dimensional Discrete Data
+https://arxiv.org/pdf/1512.06452.pdf
+
+bayesian gaussian model
+
+Continuous online sequence learning with an unsupervised neural network model
+https://arxiv.org/pdf/1512.05463.pdf
+
+Grand Challenge: StreamLearner – Distributed Incremental Machine Learning on Event Streams
+https://arxiv.org/pdf/1706.08420.pdf
+
