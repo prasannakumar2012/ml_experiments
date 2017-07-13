@@ -1,0 +1,9 @@
+{
+"input_file_path" : "file:///Users/prasanna/scrapy_projects/points2.txt",
+"input_separated_by" : "," ,
+"index_of_features_to_take" : "0,2,4" ,
+"num_clusters" : "3",
+"output_file_path" : "/Users/prasanna/scrapy_projects/kmeans_pca_final_output.csv" ,
+"output_separated_by" : "," ,
+"output_plot_path" : "/Users/prasanna/scrapy_projects/kmeans_pca_final_plot.png"
+}
