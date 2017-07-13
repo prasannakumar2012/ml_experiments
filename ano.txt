@@ -49,3 +49,8 @@ https://github.com/H21lab/Anomaly-Detection
 https://github.com/owoshch/time_series
 
 h2O autoencoder - train on normal data to get the minimum recontruction error. Test for new samples and see if the recontruction error is above some threshold
+https://github.com/h2oai/h2o-world-2014-training/blob/master/tutorials/unsupervised/anomaly/anomaly.R.md
+http://amunategui.github.io/anomaly-detection-h2o/
+
+
+
