@@ -1,2 +1,5 @@
 https://github.com/aqibsaeed/Anomaly-Detection/blob/master/Anomaly%20Detection.ipynb
 http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
+https://micvog.com/2016/05/21/using-spark-for-anomaly-fraud-detection/
+https://github.com/mvogiatzis/spark-anomaly-detection/tree/master/src/main/scala
+
