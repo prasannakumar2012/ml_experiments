@@ -52,5 +52,8 @@ h2O autoencoder - train on normal data to get the minimum recontruction error. T
 https://github.com/h2oai/h2o-world-2014-training/blob/master/tutorials/unsupervised/anomaly/anomaly.R.md
 http://amunategui.github.io/anomaly-detection-h2o/
 
-
-
+plot
+https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize
+https://www.kaggle.com/benhamner/python-data-visualizations
+https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
