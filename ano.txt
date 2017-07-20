@@ -57,3 +57,11 @@ https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
 https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize
 https://www.kaggle.com/benhamner/python-data-visualizations
 https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
+
+
+
+https://hackernoon.com/anomaly-detection-of-time-series-data-using-machine-learning-deep-learning-c248061ea4f5
+The most common unsupervised algorithms are self-organizing maps (SOM), K-means, C-means, expectation-maximization meta-algorithm (EM), adaptive resonance theory (ART), and one-class support vector machine.
+
+
+
