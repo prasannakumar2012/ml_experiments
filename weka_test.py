@@ -23,7 +23,11 @@ java weka.classifiers.trees.J48 -T /Users/prasanna/Desktop/weka-3-8-1/data/iris.
 
 
 """
+from weka.core.converters import Loader, Saver
+import weka.core.jvm as jvm
+from weka.classifiers import Classifier, Evaluation
 
+jvm.start()
 import weka.core.serialization as serialization
 from weka.classifiers import Classifier
 objects = serialization.read_all("/Users/prasanna/Desktop/weka-3-8-1/treej48.model")
@@ -40,4 +44,4 @@ data.class_is_last()
 for index, inst in enumerate(data):
     pred = classifier.classify_instance(inst)
     dist = classifier.distribution_for_instance(inst)
-    print(str(index+1) + ": label index=" + str(pred) + ", class distribution=" + str(dist))
+    print(str(index+1)+ "  " + str(inst)  + " label index=" + str(pred) + ", class distribution=" + str(dist))
