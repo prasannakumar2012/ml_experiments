@@ -39,3 +39,29 @@ https://arxiv.org/pdf/1707.00948.pdf
 
 GMM
 https://codefying.com/2016/09/03/gaussian-mixture-model-with-application-to-anomaly-detection/
+
+
+https://github.com/curiousily/Credit-Card-Fraud-Detection-using-Autoencoders-in-Keras
+https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd
+
+https://github.com/H21lab/Anomaly-Detection
+
+https://github.com/owoshch/time_series
+
+h2O autoencoder - train on normal data to get the minimum recontruction error. Test for new samples and see if the recontruction error is above some threshold
+https://github.com/h2oai/h2o-world-2014-training/blob/master/tutorials/unsupervised/anomaly/anomaly.R.md
+http://amunategui.github.io/anomaly-detection-h2o/
+
+plot
+https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize
+https://www.kaggle.com/benhamner/python-data-visualizations
+https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
+
+
+
+https://hackernoon.com/anomaly-detection-of-time-series-data-using-machine-learning-deep-learning-c248061ea4f5
+The most common unsupervised algorithms are self-organizing maps (SOM), K-means, C-means, expectation-maximization meta-algorithm (EM), adaptive resonance theory (ART), and one-class support vector machine.
+
+
+
