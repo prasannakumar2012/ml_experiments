@@ -1,0 +1,52 @@
+import org.apache.spark.ml.classification.LogisticRegression
+import org.apache.spark.ml.linalg.{Vector, Vectors}
+import org.apache.spark.ml.param.ParamMap
+import org.apache.spark.sql.Row
+
+val training = spark.createDataFrame(Seq(
+  (1.0, Vectors.dense(0.0, 1.1, 0.1)),
+  (0.0, Vectors.dense(2.0, 1.0, -1.0)),
+  (0.0, Vectors.dense(2.0, 1.3, 1.0)),
+  (1.0, Vectors.dense(0.0, 1.2, -0.5))
+)).toDF("label", "features")
+
+
+
+val lr = new LogisticRegression()
+lr.explainParams()
+
+lr.setMaxIter(10).setRegParam(0.01)
+
+val model1 = lr.fit(training)
+
+println("Model 1 was fit using parameters: " + model1.parent.extractParamMap)
+
+
+
+model1.transform(training)
+
+
+  while True:
+
+    selected_models = {}
+    file_list = tf.gfile.ListDirectory(model_dir)
+    for model_file in file_list:
+      if ("checkpoint" in model_file or "index" in model_file or
+          "meta" in model_file):
+        continue
+      if ("data" in model_file):
+        model_file = model_file.split(".")[0]
+      model_step = int(
+          model_file.split("_")[len(model_file.split("_")) - 1])
+      selected_models[model_step] = model_file
+    file_list = sorted(selected_models.items(), key=lambda x: x[0])
+    if (len(file_list) > 0):
+      file_list = file_list[0:len(file_list) - 1]
+    for model_file in file_list:
+      model_file = model_file[1]
+      print "restoring: ", model_file
+      saver.restore(sess, model_dir + "/" + model_file)
+      model_step = int(
+          model_file.split("_")[len(model_file.split("_")) - 1])
+      print "evaluating on dev ", model_file, model_step
+      evaluate(sess, dev_data, batch_size, graph, model_step)
