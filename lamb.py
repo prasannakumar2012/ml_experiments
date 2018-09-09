@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     out = event["Records"][0]["Sns"]["Message"]
     init_script = """#!/bin/bash
     aws s3 cp s3://prascf-prascf-t9dth25rsrg/sample_py.py sample_py.py
-    python sample_py.py"""
+    sudo python sample_py.py"""
     print (init_script)
     instance = ec2_client.run_instances(
         ImageId=ami,
